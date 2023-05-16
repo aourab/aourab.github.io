@@ -27,12 +27,13 @@ main {
 }
 
 .container {
+  margin-top: 27vh;
   background: transparent;
   backdrop-filter: blur(15px);
   border: 2px solid rgba(255,255,255,0.5);
   border-radius: 20px;
-  height: 55vh;
-  padding: 50px;
+  height: 5vh;
+  padding: 10px;
   box-shadow: 0px 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 13px;
   max-width: 600px;
@@ -43,8 +44,8 @@ main {
   margin-top: 0px;
   margin-bottom: 60px;
   
-  font-size: 20px;
-  font-style: italic;
+  font-size: 22px;
+  font-style: oblique;
   color: #ffffff;
   text-align: left;
   line-height: 1.5;
@@ -59,10 +60,3 @@ footer {
   
 }
 
-#signature {
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 4px;
-  font-size: 22px;
-  color: #ffffff;
-}
